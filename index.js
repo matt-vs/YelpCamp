@@ -158,8 +158,9 @@ app.use((err, req, res, next) => {
     res.status(statusCode).render('error', { err })
 });
 
+const host = '0.0.0.0';
 const port = process.env.PORT || 3000;
 // LISTEN ON PORT 3000
-app.listen(port, () => {
+app.listen(port, host, () => {
     console.log(`OPEN ON PORT ${port}`)
 });
