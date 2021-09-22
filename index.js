@@ -5,14 +5,9 @@ if (process.env.NODE_ENV !== 'production') {
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
-const Joi = require('joi');
-const Campground = require('./models/campground');
 const ExpressError = require('./utils/expressError')
 const methodOverride = require('method-override');
 const ejsMate = require('ejs-mate');
-const { networkInterfaces } = require('os');
-const { campgroundSchema, reviewSchema } = require('./schemas.js');
-const Review = require('./models/review');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 const userRoutes = require('./routes/users')
