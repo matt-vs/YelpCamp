@@ -1,7 +1,7 @@
 # YelpCamp 
 ### Link to App: https://yelpcamp-matt.herokuapp.com/
 
-You can login with email: user@user.com and password: user
+You can login with username: user and password: user
 
 YelpCamp project from Colt Steele's Web Development Bootcamp 
 
